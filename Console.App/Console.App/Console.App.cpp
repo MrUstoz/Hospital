@@ -3,9 +3,16 @@
 
 #include <iostream>
 
+using namespace std;
+
 int main()
 {
     std::cout << "Hello World!\n";
+
+    int n, m;
+    cin >> n >> m;
+
+    cout << "output: " << n + m;
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
